@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    char a[20][20];
+    int i,j,l,n;
+    printf("N=");
+    scanf("%d",&n);
+    printf("Enter sentences:\n");
+    for(i=0;i<n;i++){
+        scanf(" %[^\n]s",a[i]);
+    }
+    for(i=0;i<n;i++){
+        l=0;
+        for(j=0;a[i][j]!='\0';j++){
+            if(a[i][j]==' ')
+                l++;
+        }
+        printf("Number of word:%d\n",l+1);
+    }
+}
+fgugfjgj
+cgccvhg
+hfhf
+cvxcv
